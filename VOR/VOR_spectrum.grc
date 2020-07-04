@@ -36,7 +36,7 @@ blocks:
   id: variable
   parameters:
     comment: ''
-    value: '80000'
+    value: '224000'
   states:
     bus_sink: false
     bus_source: false
@@ -68,7 +68,7 @@ blocks:
     alias: ''
     append: 'False'
     comment: ''
-    file: /home/n_gaviria/GRC/VOR_MRN.iq
+    file: /home/n_gaviria/GRC/VOR_MRN_224Ksps.iq
     type: complex
     unbuffered: 'False'
     vlen: '1'
@@ -88,7 +88,7 @@ blocks:
     label: RF_Center_Freq
     short_id: ''
     type: intx
-    value: '113000000'
+    value: '113672000'
   states:
     bus_sink: false
     bus_source: false
@@ -272,7 +272,7 @@ blocks:
     bus_structure: null
     coordinate: [566, 249]
     rotation: 0
-    state: enabled
+    state: disabled
 - name: qtgui_waterfall_sink_x_0
   id: qtgui_waterfall_sink_x
   parameters:
